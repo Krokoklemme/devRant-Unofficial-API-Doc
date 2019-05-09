@@ -15,6 +15,7 @@ Also, API response truncated to save space and frustrations.
 * [Get rants](#getrants)
 * [Get a rant with comments](#getarant)
 * [Search](#search)
+* [Authentication](#auth)
 * [Get user profile](#getuser)
 
 ### ```/get-user-id```<a name="getuserid"></a>
