@@ -155,6 +155,27 @@ Also, API response truncated to save space and frustrations.
 }
 ```
 
+### ```users/auth-token```<a name="auth"></a>
+
+* **Method**: POST
+* **Brief**: Gets an authentication token for posting rants, voting for comments, etc.
+* **Body**: `app=3&username={username or e-mail}&password={password}`
+* **Response**:
+
+```json
+{
+    "success": true,
+    "auth_token": {
+        "id": 2095660,
+        "key": "6AWxG8ijoKnqJAPqrmfDVbzfX_XDTe9vhqMjMsx8",
+        "expire_time": 1560022000,
+        "user_id": 454264
+    }
+}
+```
+
+**Note**: Must specify `Content-Type` request header with `application/x-www-form-urlencoded; charset=UTF-8`
+
 ### ```/users/${user_id}```<a name="getuser"></a>
 
 * **Method**: GET
