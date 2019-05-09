@@ -25,7 +25,7 @@ Also, API response truncated to save space and frustrations.
 * **Example**: [https://www.devrant.io/api/get-user-id?app=3&username=abhn](https://www.devrant.io/api/get-user-id?app=3&username=abhn)
 * **Response**:
 
-```
+```json
 {
   "success": true,
   "user_id": 101178
@@ -44,7 +44,7 @@ Also, API response truncated to save space and frustrations.
 * **Example**: [https://www.devrant.io/api/devrant/rants?app=3](https://www.devrant.io/api/devrant/rants?app=3)
 * **Response**: An array of rants with various parameters
 
-```
+```json
 {
   "success": true,
   "rants": [
@@ -88,7 +88,7 @@ Also, API response truncated to save space and frustrations.
 * **Example**: [https://www.devrant.io/api/devrant/rants/327111?app=3](https://www.devrant.io/api/devrant/rants/327111?app=3)
 * **Response**:
 
-```
+```json
 {
   "rant": {
     "id": 32710,
@@ -125,7 +125,7 @@ Also, API response truncated to save space and frustrations.
 * **Example**: [https://www.devrant.io/api/devrant/search?app=3&term=git](https://www.devrant.io/api/devrant/search?app=3&term=git)
 * **Response**:
 
-```
+```json
 {
   "success": true,
   "results": [
